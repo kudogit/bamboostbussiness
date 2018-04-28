@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.7" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Bamboo.Data.EF\Bamboo.Data.EF.csproj" />
+    <ProjectReference Include="..\Bamboo.DependencyInjection\Bamboo.DependencyInjection.csproj" />
+    <ProjectReference Include="..\Bamboo.Service.Facade\Bamboo.Service.Facade.csproj" />
+    <ProjectReference Include="..\Bamboo.Service\Bamboo.Service.csproj" />
+    <ProjectReference Include="..\Bamboo.SignalR\Bamboo.SignalR.csproj" />
+    <ProjectReference Include="..\Bamboo.Util\Bamboo.Util.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+
+.error {
+  color: red;
+}
+.error-msg {
+  display: block;
+  position: relative;
+  font-size: 100%;
+  margin-top:1em;
+  color: red;
+}
+.control-label{
+    margin-top: .5em;
+    font-weight: 500;
+}
